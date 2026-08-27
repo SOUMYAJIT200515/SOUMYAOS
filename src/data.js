@@ -190,7 +190,7 @@ export const projects = [
     ],
 
     github:
-      "https://github.com/SOUMYAJIT200515/coding-guide-app",
+      "https://github.com/SOUMYAJIT200515/CODE-GUIDE",
 
     demo: "",
 
@@ -286,7 +286,7 @@ export const projects = [
       "Java-based implementation"
     ],
 
-    github: "",
+    github: "https://github.com/SOUMYAJIT200515/Music_player",
 
     demo: "",
 
