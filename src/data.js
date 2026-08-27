@@ -63,7 +63,7 @@ export const projects = [
     technologies: [
       "Java",
       "Spring Boot",
-      "MongoDB",
+      "MySQL",
       "REST API",
       "OTP",
       "JavaScript"
@@ -222,46 +222,48 @@ export const projects = [
       "Immersive interface"
     ],
 
-    github: "",
+    github: "https://github.com/SOUMYAJIT200515/AETHERIA_SPACE_SIMULATION",
 
-    demo: "",
+    demo: "https://soumyajit200515.github.io/AETHERIA_SPACE_SIMULATION/",
 
     status: "Experimental"
   },
-
-
   {
-    id: "galactic-conqueror",
-    name: "Galactic Conqueror",
-    icon: "🚀",
-    category: "other",
+  id: "weather-webapp",
+  name: "Weather Web App",
+  icon: "🌤️",
+  category: "other",
 
-    description:
-      "An interactive browser-based space experience developed as an experimental game and 3D graphics project.",
+  description:
+    "A modern weather application that provides real-time weather information, forecasts, air quality data, location-based weather, and interactive weather maps.",
 
-    technologies: [
-      "JavaScript",
-      "Three.js",
-      "WebGL",
-      "HTML",
-      "CSS"
-    ],
+  technologies: [
+    "React",
+    "TypeScript",
+    "Vite",
+    "Express.js",
+    "OpenWeatherMap API"
+  ],
 
-    features: [
-      "Interactive gameplay",
-      "3D environment",
-      "Space-themed interface",
-      "Browser-based rendering"
-    ],
+  features: [
+    "Real-time weather information",
+    "City-based weather search",
+    "Location-based weather",
+    "Weather forecasts",
+    "Air quality information",
+    "Interactive weather maps",
+    "Weather map tile integration",
+    "Responsive interface"
+  ],
 
-    github: "",
+  github:
+    "https://github.com/SOUMYAJIT200515/weather_webapp",
 
-    demo: "",
+  demo:
+    "https://weather-webapp-anqp.vercel.app/",
 
-    status: "Experimental"
-  },
-
-
+  status: "Live Demo"
+},
   {
     id: "java-music-player",
     name: "Java Music Player",
@@ -289,38 +291,8 @@ export const projects = [
     demo: "",
 
     status: "Academic Project"
-  },
-
-
-  {
-    id: "jarvis",
-    name: "Jarvis AI Assistant",
-    icon: "🤖",
-    category: "other",
-
-    description:
-      "An experimental Python-based personal assistant project exploring voice interaction, automation, and command processing.",
-
-    technologies: [
-      "Python",
-      "Speech Recognition",
-      "Automation",
-      "OpenCV"
-    ],
-
-    features: [
-      "Voice interaction",
-      "Command processing",
-      "Automation experiments",
-      "Computer vision experiments"
-    ],
-
-    github: "",
-
-    demo: "",
-
-    status: "Experimental"
   }
+
 
 ];
 
@@ -492,17 +464,5 @@ export const apps = [
     id: "settings",
     name: "Settings",
     icon: "⚙️"
-  },
-
-  {
-    id: "snake",
-    name: "Snake",
-    icon: "🐍"
-  },
-
-  {
-    id: "minesweeper",
-    name: "Minesweeper",
-    icon: "💣"
   }
 ];
